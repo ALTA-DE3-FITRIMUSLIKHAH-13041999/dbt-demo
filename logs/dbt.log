@@ -1,0 +1,31 @@
+[0m01:27:41.055539 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc21c42e110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc21c2ec790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc21c161850>]}
+
+
+============================== 01:27:41.059357 | dcd58cb4-f8e6-49fc-8f3b-03235c814009 ==============================
+[0m01:27:41.059357 [info ] [MainThread]: Running with dbt=1.7.0
+[0m01:27:41.059790 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/fitri/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init my_project', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m01:27:41.060127 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/fitri/.dbt')}
+[0m01:27:41.060393 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m01:27:41.061776 [info ] [MainThread]: A project called my_project already exists here.
+[0m01:27:41.063239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc21be43bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc21c2ee590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc21c2ec8d0>]}
+[0m01:27:41.063535 [debug] [MainThread]: Flushing usage events
+[0m01:49:17.700757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed86063bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed8a70bc50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed86063790>]}
+
+
+============================== 01:49:17.705662 | 859d71cb-a397-446d-98cb-ed28b7b70052 ==============================
+[0m01:49:17.705662 [info ] [MainThread]: Running with dbt=1.7.0
+[0m01:49:17.706095 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/fitri/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init my_project', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m01:49:17.706679 [info ] [MainThread]: A project called my_project already exists here.
+[0m01:49:17.708263 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed85e0e190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed85df3f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed85f33990>]}
+[0m01:49:17.708570 [debug] [MainThread]: Flushing usage events
+[0m20:44:54.789411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc3cccc1e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc3ce98b410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc3cd2fae50>]}
+
+
+============================== 20:44:54.813003 | a32f3080-475a-4c50-929e-42fdc158922f ==============================
+[0m20:44:54.813003 [info ] [MainThread]: Running with dbt=1.7.0
+[0m20:44:54.815378 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/fitri/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init my_project', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:44:54.824930 [info ] [MainThread]: A project called my_project already exists here.
+[0m20:44:54.831173 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.44639137, "process_user_time": 8.275974, "process_kernel_time": 2.802339, "process_mem_max_rss": "111380", "process_in_blocks": "8096", "process_out_blocks": "24"}
+[0m20:44:54.834836 [debug] [MainThread]: Command `dbt init` succeeded at 20:44:54.834326 after 0.45 seconds
+[0m20:44:54.836065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc3ccca7d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc3ccce6590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc3cd01d2d0>]}
+[0m20:44:54.837517 [debug] [MainThread]: Flushing usage events
